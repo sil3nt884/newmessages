@@ -20,6 +20,12 @@ public class MatchCommand extends Command{
 		
 	}
 
+	public  void getHelp() {
+		System.out.println("Match any Catergory \n"
+				+ "Usage: m <String>");
+		
+	}
+
 
 
 }

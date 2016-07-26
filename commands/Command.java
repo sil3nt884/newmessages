@@ -16,6 +16,10 @@ public abstract class Command {
 		this.shortname=shortname;
 	}
 	
+	public   void getHelp(){
+		System.out.println("To get more details...Usage: help <command>");
+		
+	}
 	
 	public abstract void excute(String params);
 	

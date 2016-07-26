@@ -21,4 +21,11 @@ public class TagSearchCommand extends Command {
 		
 	}
 
+
+	public void getHelp() {
+		System.out.println("Match any Tag \n"
+				+ "Usage: t <String>");
+		
+	}
+
 }

@@ -13,6 +13,12 @@ public class ListCommand extends Command {
 		
 	}
 
+	public  void getHelp() {
+		System.out.println("List list all messages \n"
+				+ "Usage l or List");
+		
+	}
+
 	
 
 }

@@ -21,6 +21,9 @@ public class MailMessages {
 				if(command.equalsIgnoreCase("List")|| command.equalsIgnoreCase("l")){
 					commands.matchCommand(command, null);
 				}
+				if(command.equalsIgnoreCase("Help")|| command.equalsIgnoreCase("h")){
+					commands.matchCommand(command, null);
+				}
 				else{
 					commands.matchCommand(command.split(" ")[0], command.split(" ")[1]);
 				}

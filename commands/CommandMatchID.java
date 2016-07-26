@@ -13,4 +13,9 @@ public class CommandMatchID extends Command {
 		
 	}
 
+	public  void getHelp() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

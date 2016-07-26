@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Commands {
 
 
-	private ArrayList<Command> commands = new ArrayList<Command>();
+	static ArrayList<Command> commands = new ArrayList<Command>();
 	
 	public Commands(){
 		CreateCommands();
@@ -19,6 +19,7 @@ public class Commands {
 		commands.add(new FindCommand("Find","f"));	
 		commands.add(new MatchCommand("Match","m"));
 		commands.add(new TagSearchCommand("Tag","t"));
+		commands.add(new HelpCommand("Help","h"));
 	}
 
 
@@ -27,7 +28,7 @@ public class Commands {
 	}
 
 	public void setCommands(ArrayList<Command> commands) {
-		this.commands = commands;
+		Commands.commands = commands;
 	}
 
 	
@@ -36,7 +37,6 @@ public class Commands {
 		for(int i=0; i<commands.size(); i++){
 			
 			if(command.equalsIgnoreCase(commands.get(i).getCommand())|| command.equalsIgnoreCase(commands.get(i).getShortname())){
-				System.out.println(command);
 				  commands.get(i).excute(parms);
 				  return;
 			}

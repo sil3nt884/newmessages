@@ -21,6 +21,12 @@ public class CopyCommand extends Command {
 		
 	}
 
+	public void getHelp() {
+		System.out.println("Copy selected message \n"
+				+ "Usage: <number>");
+		
+	}
+
 	
 
 }

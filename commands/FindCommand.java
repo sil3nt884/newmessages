@@ -26,4 +26,13 @@ public class FindCommand extends Command{
 		}
 	}
 
+
+
+
+	public void getHelp() {
+		System.out.println("Finds any message containing <String> \n"
+				+ "Usage: f <string>");
+		
+	}
+
 }
