@@ -15,8 +15,7 @@ import java.util.*;
 public class Collection {
 
 	private ArrayList<Message> messages = new ArrayList<Message>();
-																
-																									
+
 	public ArrayList<Message> getMessages() {
 		return messages;
 	}
@@ -438,6 +437,55 @@ public class Collection {
 
 		// 50 Characters
 		// -----------------------------------------------------------"
+
+		messages.add(new Message("Why can't i donwload the app", "Thank you for emailing android support,\n" +
+
+				" Please attempt to download the app for the play store by following this link:" +
+
+				"https://play.google.com/store/apps/details?id=com.dailymail.online&hl=en_GB\n" +
+
+				" if you have any problems please send over a screenshot  showing the error message.", "Android"));
+
+		messages.add(new Message("iphone or android not appearing",
+				"Hello\n\nThank you for your email. There is no issue with "
+						+ "your account and comments usually take longer to appear on mobile apps so if your comment is already live "
+						+ "in the desktop site please be assured that it will shortly "
+						+ "appear on the mobile apps.\n\nPlease do not hesitate to contact us "
+						+ "should you continue to experience difficulties.\n\nKind Regards,\n",
+				"Mobile apps"));
+
+		messages.add(new Message("Comments on web not appearing.",
+				"Hello\n\nThanks for your email. \n\nMailOnline has grown significantly "
+						+ "over the last year and continues to grow in popularity.  As a result we also have a higher number of comments submitted every day. "
+						+ " Where articles on comments are moderated we make every effort to review as many comments as possible.  Unfortunately there can"
+						+ " sometimes be a delay between a comment being published and it appearing or because your comment does not agree to the house rules."
+						+ " \n \nFor more information regarding this please refer to our House Rules:\nhttp://www.dailymail.co.uk/home/article-1388145/House-Rules.html\n \nWe "
+						+ "hope you continue to enjoy using the app and " + "reading its contents.\n\nKind regards,\n",
+				"web"));
+		
+		messages.add(new Message("Unable to locate account", "Thank you for emailing android support,\nI did some investigation and"
+				+ " I was unable to locate your account on our systems under the email address provided."
+				+ "\nDo you have an alternative email address which you may have used to sign up with the Daily mail?\n", "android"));
+		
+		messages.add(new Message ("Unable to play vidoes on kindle", "\nThank for emailing android"
+				+ " support,\n\nWe are currently experience some issues with videos on Kindles where they are not playable Our developers are aware and are looking for a fix "
+				+ "this issues.\n\nCurrently they trying to find out why this issues is occurring and will have an update soon.\n\n", "kindle"));
+		
+		
+		messages.add(new Message("Voting arrows", "Thank you for your Email, \n\nI will look into your problem  and look for a method to remove red arrows/green arrows "
+				+ " from comments if they are falsely  added by hackers.\n\nWe are always combating the hackers who come up with new methods to mess votes. "
+				+ "  \n\nPlease be patience we are working very hard to get this resolved. \n", "android", "web"));
+		
+		messages.add(new Message("Comments not appearing on app", "Hello,\n\nThanks for your email. "
+				+ "\n\nMailOnline has grown significantly over the last year and continues to grow in popularity. "
+				+ " As a result we also have a higher number of comments submitted every day.  Where articles on comments are"
+				+ " moderated we make every effort to review as many comments as possible.  Unfortunately there can sometimes be a delay between "
+				+ "a comment being published and it appearing or because your comment does not agree to the house rules. \n \nFor more information regarding "
+				+ "this please refer to our House Rules:\nhttp://www.dailymail.co.uk/home/article-1388145/House-Rules.html\n \nWe hope you continue to enjoy"
+				+ " using the app and reading its contents.\n\nIf you continue to have problems please clear the app cache.\n\nKind regards,\n", "android"));
+		
+		messages.add(new Message("S5 ranage blocked", "Thank you for emailing Android support team.\n\nWe are currently facing some issues with the S5 range. \n\nOur"
+				+ " developers are working to find a fix for this issue and should have an update soon.\n", "S5"));
 
 	}
 
